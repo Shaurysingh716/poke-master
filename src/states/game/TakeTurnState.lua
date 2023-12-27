@@ -1,11 +1,3 @@
---[[
-    GD50
-    Pokemon
-
-    Author: Colton Ogden
-    cogden@cs50.harvard.edu
-]]
-
 TakeTurnState = Class{__includes = BaseState}
 
 function TakeTurnState:init(battleState)

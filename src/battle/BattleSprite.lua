@@ -1,11 +1,3 @@
---[[
-    GD50
-    Pokemon
-
-    Author: Colton Ogden
-    cogden@cs50.harvard.edu
-]]
-
 BattleSprite = Class{}
 
 function BattleSprite:init(texture, x, y)
@@ -15,7 +7,6 @@ function BattleSprite:init(texture, x, y)
     self.opacity = 1
     self.blinking = false
 
-    -- https://love2d.org/forums/viewtopic.php?t=79617
     -- white shader that will turn a sprite completely white when used; allows us
     -- to brightly blink the sprite when it's acting
     self.whiteShader = love.graphics.newShader[[
